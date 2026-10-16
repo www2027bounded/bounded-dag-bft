@@ -4,6 +4,8 @@ This repo provides an implementation of quorum-isolated dissemination (QID) and 
 commit [`f5145b7219f62b4607be65822d4e3c13147ce778`](https://github.com/asonnino/narwhal/commit/f5145b7219f62b4607be65822d4e3c13147ce778).
 QID bounds each peer's outstanding deliveries. QSR reclaims a completed
 generation of delivery state while preserving FIFO reply matching.
+TR reclaims timed-out generations and replays deliveries for batches that
+remain active after the old generation is destroyed.
 
 This repository accompanies our WWW 2027 submission:
 

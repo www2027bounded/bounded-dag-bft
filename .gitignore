@@ -1,0 +1,12 @@
+/target/
+**/__pycache__/
+*.pyc
+/.local/
+/.cluster/
+/.keys/
+/.runs/
+/logs/
+*.log
+*.pid
+**/.db-*/
+.DS_Store

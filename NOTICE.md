@@ -1,0 +1,1 @@
+This artifact includes Narwhal, based on upstream commit f5145b7219f62b4607be65822d4e3c13147ce778, under the Apache License 2.0. Original copyright and author notices in the source are preserved. The source includes the QID, QSR, TR comparison, and shared worker repair used in the experiments.

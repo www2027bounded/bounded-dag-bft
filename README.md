@@ -191,8 +191,8 @@ counted from each worker's startup. Omitting this option keeps ACKs
 withheld. Recovery applies to newly processed frames. It does not send
 ACKs retroactively for frames already consumed during withholding.
 
-**Clients.** With one NoRead authority, run `n-1` clients. With `b`
-withholding workers, run `n-b` clients, one per remaining worker. Set each
+**Clients.** With one NoRead authority, run `n-1` clients. With `f_ack`
+withholding workers, run `n-f_ack` clients, one per remaining worker. Set each
 client's `--nodes` list to those remaining workers' transaction endpoints.
 This list is a startup reachability barrier and does not change committee
 membership. In either four-host example with authority 3 faulty, run
